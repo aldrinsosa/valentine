@@ -1,0 +1,55 @@
+body {
+  display: inline-block;
+  background-image: url("./images/TE\ AMO.jpg");
+  background-size: cover;
+  width: 97vw;
+  height: 100vh;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #8a4a63;
+  margin: 0;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #fbbccc ;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
